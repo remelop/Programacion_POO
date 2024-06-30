@@ -58,6 +58,12 @@ elif opcion == 4:
 else:
     opcion_valida = False
     print("Opción no válida. Por favor, reinicie el programa y seleccione una opción válida.")
+    """
+    Muestra un mensaje de error al usuario.
+
+    Args:
+      mensaje: El mensaje de error a mostrar (string).
+    """
 
 # Mensaje de finalización si la opción fue válida
 if opcion_valida:
